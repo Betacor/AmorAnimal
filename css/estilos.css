@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @import url(menu.css); /*Importa el css de menu*/
 @import url(banner.css);
 @import url(blog.css);
