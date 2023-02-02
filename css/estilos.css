@@ -3,6 +3,7 @@
 @import url(menu.css); /*Importa el css de menu*/
 @import url(banner.css);
 @import url(blog.css);
+@import url(info.css);
 
 * {
     margin: 0;
@@ -48,3 +49,44 @@ section {
 #bienvenidos {
     text-align: center;
 }
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+    }
+
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1024px;
+    }
+}
+
